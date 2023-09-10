@@ -13,3 +13,42 @@ body
     height: 100vh;
     
 }
+
+header
+{
+
+    width: 100vw;
+    height: 60px;
+
+}
+
+nav
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a
+{
+
+    text-decoration: none;
+    
+}
+
+ul
+{
+
+    display: flex;
+    gap: 20px;
+
+}
+
+li
+{
+
+    list-style: none;
+
+}
