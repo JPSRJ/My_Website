@@ -13,7 +13,7 @@ body
 {
 
     min-height: 100vh;
-    background-image: url('');
+    background-image: url('../src/codeing_image_3.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -24,23 +24,31 @@ header
 {
 
     width: 100%;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    padding: 0px 10px 0px 10px;
+    margin-top: 10px;
 
 }
 
 header nav
 {
 
-    height: 40px;
+    width: 100%;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 10px 0px 10px;
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+    padding: 0px 8px 0px 8px;
 
 }
 
 .logo{
 
+    font-size: 32px;
+    font-weight: 700;
     text-decoration: none;
     color: white;
 
@@ -101,4 +109,42 @@ header nav ul li a:hover
     font-weight: 500;
     cursor: pointer;
     
+}
+
+.section_01
+{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 30px 30px 40px;
+
+}
+
+.container_01
+{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container_01 > .projects
+{
+
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.projects
+{
+
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+
 }
