@@ -109,3 +109,55 @@ header nav ul li a:hover
     cursor: pointer;
     
 }
+
+@media (max-width:600px)
+{
+
+    .ul
+    {
+
+        display: none;
+
+    }
+
+    .btn_01
+    {
+
+        display: none;
+
+    }
+
+    .nav
+    {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+@media (max-width:768px)
+{
+
+    .ul
+    {
+
+        gap: 20px;
+
+    }
+
+}
+
+@media (max-width:992px)
+{
+
+    .ul
+    {
+
+        gap: 20px;
+
+    }
+
+}
