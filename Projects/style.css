@@ -11,8 +11,8 @@
 
 body
 {
-
-    min-height: 100vh;
+    min-width: 100%;
+    height: 100%;
     background-image: url('../src/codeing_image_3.jpg');
     background-size: cover;
     background-position: center;
@@ -119,7 +119,7 @@ header nav ul li a:hover
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 110px 30px 30px 40px;
+    padding-top: 110px;
 
 }
 
@@ -127,6 +127,8 @@ header nav ul li a:hover
 {
 
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 
 }
@@ -142,9 +144,88 @@ header nav ul li a:hover
 .projects
 {
 
-    width: 400px;
+    width: 380px;
     height: 500px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 20px;
+
+}
+
+@media (max-width:600px)
+{
+
+    .ul
+    {
+
+        display: none;
+
+    }
+
+    .btn_01
+    {
+
+        display: none;
+
+    }
+
+    .nav
+    {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(0px);
+
+    }
+    .section_01
+    {
+
+        padding: 110px 0px 0px 0px;
+
+    }
+
+    .projects
+    {
+
+        width: 96%;
+
+    }
+
+}
+
+@media(max-width:768px)
+{
+
+    .ul
+    {
+
+        gap: 20px;
+
+    }
+
+    .projects
+    {
+
+        width: 300px;
+    }
+
+}
+
+@media (max-width:992px)
+{
+
+    .ul
+    {
+
+        gap: 20px;
+
+    }
+
+    .projects
+    {
+
+        width: 360px;
+
+    }
 
 }
