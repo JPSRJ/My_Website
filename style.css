@@ -5,14 +5,13 @@
     padding: 0;
     font-family: Ubuntu;
     font-size: 18px;
-    box-sizing: border-box;
 
 }
 
 body
 {
 
-    min-height: 100vh;
+    height: 100vh;
     background-image: url('src/codeing_image_5.jpg');
     background-size: cover;
     background-position: center;
@@ -170,4 +169,56 @@ header nav ul li a:hover
     color: white;
     font-weight: 500;
     cursor: pointer;
+
+}
+
+@media (max-width:600px)
+{
+
+    .ul,
+    .btn_01
+    {
+
+        display: none;
+
+    }
+
+    .nav
+    {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .container_01
+    {
+
+        background-color: transparent;
+
+    }
+
+}
+
+@media (max-width: 768px)
+{
+
+    .ul
+    {
+
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 992px)
+{
+
+    .ul
+    {
+
+        gap: 20px;
+    }
+    
 }
